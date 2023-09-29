@@ -1,0 +1,24 @@
+.vertical-line {
+  border-left: 4px solid #f2f2f2;
+  height: 60px;
+}
+.nav-delivery > h5 {
+  font-weight: 900;
+  margin-top: 10px;
+}
+.nav-delivery > p {
+  font-size: 13px;
+}
+#my-nav-search{
+    background-color: #f2f2f2;
+    border-radius:10px;
+    border:4px solid #f2f2f2;
+    padding-inline:10px;
+}
+#my-nav-search>input{
+    background-color:transparent;
+    border:none;
+    width:40vw;
+    height:50px;
+    
+}
