@@ -2,6 +2,13 @@
   border-left: 4px solid #f2f2f2;
   height: 60px;
 }
+/* making the nav bar sticky with the top of 0px */
+nav {
+  background-color: white;
+  position: sticky;
+  top: 0px;
+  z-index:1;
+}
 .nav-delivery > h5 {
   font-weight: 900;
   margin-top: 10px;
@@ -9,16 +16,99 @@
 .nav-delivery > p {
   font-size: 13px;
 }
-#my-nav-search{
-    background-color: #f2f2f2;
-    border-radius:10px;
-    border:4px solid #f2f2f2;
-    padding-inline:10px;
+#my-nav-search {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  border: 4px solid #f2f2f2;
+  padding-inline: 10px;
 }
-#my-nav-search>input{
-    background-color:transparent;
-    border:none;
-    width:40vw;
-    height:50px;
-    
+#my-nav-search > input {
+  background-color: transparent;
+  border: none;
+  width: 40vw;
+  height: 50px;
+}
+/* overriding the bootstrap  */
+.my-cart-btn {
+  border-radius: 10px !important;
+  font-weight: 600 !important;
+}
+/* scroll-container:responsible to make it center */
+.scroll-container {
+  width: 85vw;
+  margin: auto;
+}
+/* whitespace:nowrap which make the content in one line */
+.list {
+  white-space: nowrap;
+  overflow-x: scroll;
+}
+/* since image is inline padding,vmargin won't possible so use inline-block */
+.list > img {
+  display: inline-block;
+  margin: 10px;
+}
+/* to make invisible the scroll */
+.list::-webkit-scrollbar {
+  display: none;
+}
+#categories-1 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-inline: 5vw;
+  justify-content: space-around;
+}
+.categories-2 {
+  width: 85vw;
+  margin: auto;
+}
+/* my-card properties */
+.my-card {
+  display: inline-block !important;
+  width: 220px;
+  box-sizing: border-box;
+  border-radius: 15px !important;
+  white-space: wrap;
+  margin-inline:10px;
+}
+.my-tag{
+  position: absolute;
+  top:0px;
+  left:20px;
+  background-color: rgb(104, 126, 225);
+  width:40px;
+  color:white;
+  font-weight:900;
+  text-align:center;
+  
+}
+.zig-zag{
+  position: relative;
+  bottom:-13px;
+  font-size:16px;
+ 
+}
+.my-card > img {
+  display: inline-block;
+  margin: auto;
+}
+.time {
+  background-color: #f2f2f2;
+  font-weight: 700;
+  font-size: 9px;
+  color: rgb(54, 54, 54);
+  text-transform: uppercase;
+  width: fit-content;
+  border-radius: 5px;
+}
+.my-card-text{
+  padding:4.5px 0px 6px 0px;
+}
+.product__weight {
+  font-size: 13px;
+  color: #666666;
+  margin-bottom:3px;
+}
+.row-3 > p {
+  margin: 0px;
 }
