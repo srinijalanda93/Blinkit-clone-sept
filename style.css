@@ -251,3 +251,9 @@ td:hover {
     position: static;
   }
 }
+#made-by{
+  padding:10px;
+  font-size: 13px;
+  text-align: center;
+  color: #666666;
+}
