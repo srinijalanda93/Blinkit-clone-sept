@@ -77,13 +77,14 @@ nav {
   left: 20px;
   background-color: rgb(104, 126, 225);
   width: 40px;
+  height:50px;
   color: white;
   font-weight: 900;
   text-align: center;
 }
 .zig-zag {
   position: relative;
-  bottom: -13px;
+  bottom: 9.5px;
   font-size: 16px;
 }
 .my-card > img {
@@ -107,8 +108,16 @@ nav {
   color: #666666;
   margin-bottom: 3px;
 }
+/* .row-3 > p {
+  margin: 0px;
+} */
 .row-3 > p {
   margin: 0px;
+  font-size: 14px; /* Adjust the font size as needed */
+}
+.row-3 > p > span {
+  font-size: 12px; /* Adjust the font size for the strikethrough numbers */
+  text-decoration: line-through;
 }
 footer {
   width: 85vw;
